@@ -2486,7 +2486,12 @@ attr = {
 colorPalette = 2;
 };
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = "comma-ar";
+}
+);
+width = 150;
 }
 );
 unicode = 1643;
@@ -2499,7 +2504,13 @@ attr = {
 colorPalette = 2;
 };
 layerId = m01;
-width = 600;
+shapes = (
+{
+pos = (0,450);
+ref = "comma-ar";
+}
+);
+width = 150;
 }
 );
 unicode = 1644;
@@ -3168,8 +3179,32 @@ layers = (
 attr = {
 colorPalette = 2;
 };
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,-50,l),
+(100,50,l),
+(0,50,l),
+(0,-50,l)
+);
+}
+);
+width = 150;
 }
 );
 unicode = 1548;
@@ -3181,8 +3216,36 @@ layers = (
 attr = {
 colorPalette = 2;
 };
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,50,l),
+(100,150,l),
+(0,150,l),
+(0,50,l)
+);
+},
+{
+pos = (0,-120);
+ref = "dotbelow-ar";
+}
+);
+width = 150;
 }
 );
 unicode = 1563;
@@ -3194,8 +3257,41 @@ layers = (
 attr = {
 colorPalette = 2;
 };
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,0,l),
+(210,500,l),
+(110,500,l),
+(110,0,l)
+);
+},
+{
+pos = (0,450);
+ref = "dotabove-ar";
+},
+{
+pos = (220,-50);
+ref = "dotabove-ar";
+}
+);
+width = 370;
 }
 );
 unicode = 1642;
