@@ -113,6 +113,16 @@ glyphs = (
 glyphname = "hamza-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -150,8 +160,16 @@ name = bottom;
 pos = (50,-70);
 },
 {
+name = bottom.m;
+pos = (50,-300);
+},
+{
 name = top;
 pos = (50,730);
+},
+{
+name = top.m;
+pos = (50,910);
 }
 );
 attr = {
@@ -345,12 +363,20 @@ name = bottom;
 pos = (50,-70);
 },
 {
+name = bottom.m;
+pos = (50,-300);
+},
+{
 name = ring;
 pos = (75,0);
 },
 {
 name = top;
 pos = (50,390);
+},
+{
+name = top.m;
+pos = (50,910);
 }
 );
 attr = {
@@ -643,8 +669,16 @@ name = bottom;
 pos = (160,-70);
 },
 {
+name = bottom.m;
+pos = (50,-300);
+},
+{
 name = top;
 pos = (50,270);
+},
+{
+name = top.m;
+pos = (50,910);
 }
 );
 attr = {
@@ -755,6 +789,10 @@ layers = (
 {
 anchors = (
 {
+name = bottom.m;
+pos = (160,-300);
+},
+{
 name = top;
 pos = (50,270);
 },
@@ -853,6 +891,16 @@ unicode = 1584;
 glyphname = "reh-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
 attr = {
 colorPalette = 2;
 };
@@ -922,6 +970,10 @@ glyphname = "seen-ar";
 layers = (
 {
 anchors = (
+{
+name = bottom.m;
+pos = (160,-300);
+},
 {
 name = top.m;
 pos = (160,910);
@@ -1004,6 +1056,16 @@ unicode = 1588;
 glyphname = "sad-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
 attr = {
 colorPalette = 2;
 };
@@ -1094,6 +1156,16 @@ unicode = 1590;
 glyphname = "tah-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
 attr = {
 colorPalette = 2;
 };
@@ -1167,8 +1239,16 @@ layers = (
 {
 anchors = (
 {
+name = bottom.m;
+pos = (50,-300);
+},
+{
 name = top;
 pos = (50,290);
+},
+{
+name = top.m;
+pos = (50,910);
 }
 );
 attr = {
@@ -1326,6 +1406,10 @@ layers = (
 {
 anchors = (
 {
+name = bottom.m;
+pos = (50,-300);
+},
+{
 name = top.m;
 pos = (50,910);
 }
@@ -1403,6 +1487,10 @@ glyphname = "qafDotless-ar";
 layers = (
 {
 anchors = (
+{
+name = bottom.m;
+pos = (105,-300);
+},
 {
 name = top;
 pos = (104,270);
@@ -1502,6 +1590,16 @@ unicode = 1602;
 glyphname = "kaf-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -1562,6 +1660,16 @@ unicode = 1603;
 glyphname = "lam-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
 attr = {
 colorPalette = 2;
 };
@@ -1600,6 +1708,10 @@ glyphname = "meem-ar";
 layers = (
 {
 anchors = (
+{
+name = bottom.m;
+pos = (105,-300);
+},
 {
 name = top.m;
 pos = (105,910);
@@ -1714,6 +1826,10 @@ glyphname = "heh-ar";
 layers = (
 {
 anchors = (
+{
+name = bottom.m;
+pos = (105,-300);
+},
 {
 name = top;
 pos = (105,270);
@@ -1830,6 +1946,10 @@ layers = (
 {
 anchors = (
 {
+name = bottom.m;
+pos = (105,-300);
+},
+{
 name = top;
 pos = (105,270);
 },
@@ -1881,6 +2001,10 @@ glyphname = "waw-ar.alt";
 layers = (
 {
 anchors = (
+{
+name = bottom.m;
+pos = (105,-300);
+},
 {
 name = top;
 pos = (105,270);
