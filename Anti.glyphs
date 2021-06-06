@@ -4875,6 +4875,22 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
+},
+{
+customParameters = (
+{
+name = "Export COLR Table";
+value = 0;
+},
+{
+name = "Export SVG Table";
+value = 0;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Black;
 }
 );
 metrics = (
