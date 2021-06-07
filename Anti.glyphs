@@ -85,7 +85,11 @@ tag = rlig;
 },
 {
 code = "lookupflag IgnoreMarks;
-sub waw-ar' space by waw-ar.alt;
+
+lookup waw {
+  ignore sub @ArabicLetters waw-ar';
+  sub waw-ar' space by waw-ar.alt;
+} waw;
 
 sub @ArabicLetters heh-ar' by heh-ar.fina;
 
