@@ -6786,6 +6786,6 @@ value = "https://www.gnu.org/licenses/agpl-3.0.html";
 }
 );
 unitsPerEm = 1000;
-versionMajor = 2;
+versionMajor = 3;
 versionMinor = 0;
 }
