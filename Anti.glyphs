@@ -1,11 +1,19 @@
 {
-.appVersion = "3086";
+.appVersion = "3072";
 .formatVersion = 3;
 classes = (
 {
 automatic = 1;
 code = "hamza-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar peh-ar teh-ar theh-ar jeem-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar veh-ar fehDotless-ar qafDotless-ar qaf-ar kaf-ar lam-ar meem-ar noon-ar noonghunna-ar heh-ar heh-ar.fina tehMarbuta-ar waw-ar waw-ar.alt wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar kashida-ar lam_alef-ar lam_alefHamzaabove-ar lam_alefHamzabelow-ar lam_alefMadda-ar";
 name = ArabicLetters;
+},
+{
+code = "beh-ar yeh-ar peh-ar lam-ar";
+name = YBLetters;
+},
+{
+code = "hamza-ar dotabove-ar dotbelow-ar twodotsverticalabove-ar twodotsverticalbelow-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar threedotsabove-ar threedotsbelow-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar beh-ar.yb peh-ar peh-ar.yb teh-ar theh-ar reh-ar zain-ar lam-ar noon-ar noonghunna-ar alefMaksura-ar yeh-ar yeh-ar.yb yehHamzaabove-ar yehbarree-ar.fina decimalseparator-ar thousandseparator-ar zero-ar one-ar comma-ar semicolon-ar ";
+name = Thin;
 }
 );
 customParameters = (
@@ -57,6 +65,12 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
+code = "feature calt;
+feature fina;
+";
+tag = aalt;
+},
+{
 code = "lookup rlig_arab_0 {
 	lookupflag IgnoreMarks;
 	script arab;
@@ -65,7 +79,9 @@ code = "lookup rlig_arab_0 {
 	sub lam-ar alefHamzabelow-ar by lam_alefHamzabelow-ar;
 	sub lam-ar alefMadda-ar by lam_alefMadda-ar;
 } rlig_arab_0;
-";
+
+sub @YBLetters' yehbarree-ar.fina by [beh-ar.yb yeh-ar.yb peh-ar.yb lam-ar.yb];
+sub @YBLetters' @Thin yehbarree-ar.fina by  [beh-ar.yb yeh-ar.yb peh-ar.yb lam-ar.yb];";
 tag = rlig;
 },
 {
@@ -74,6 +90,12 @@ sub waw-ar' space by waw-ar.alt;
 
 sub @ArabicLetters heh-ar' by heh-ar.fina;";
 tag = calt;
+},
+{
+code = "sub heh-ar by heh-ar.fina;
+sub yehbarree-ar by yehbarree-ar.fina;
+";
+tag = fina;
 }
 );
 fontMaster = (
@@ -89,7 +111,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -350;
+pos = -500;
 },
 {
 over = 16;
@@ -115,6 +137,7 @@ GSOffsetHorizontal = 10;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 10;
 };
+visible = 1;
 }
 );
 glyphs = (
@@ -470,6 +493,66 @@ width = 150;
 unicode = 1576;
 },
 {
+glyphname = "beh-ar.yb";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (0,-170);
+ref = "dotbelow-ar";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+alignment = -1;
+pos = (0,-280);
+ref = "dotbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "0F71F78E-B660-44E9-AA06-DD0AEA6A5529";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-280);
+ref = "dotbelow-ar";
+}
+);
+visible = 1;
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "E6AF2DE8-3BB1-442A-8949-BF8DCF5663EF";
+name = "6 Jun 21, 20:23";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+width = 150;
+}
+);
+},
+{
 glyphname = "peh-ar";
 layers = (
 {
@@ -522,6 +605,71 @@ width = 150;
 }
 );
 unicode = 1662;
+},
+{
+glyphname = "peh-ar.yb";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-521);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (0,-391);
+ref = "threedotsbelow-ar";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+alignment = -1;
+pos = (0,-501);
+ref = "threedotsbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "816585BC-E4A1-422B-BED1-396E45979833";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-500);
+ref = "threedotsbelow-ar";
+}
+);
+visible = 1;
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "D52A4278-BF7F-4A36-80A1-34CA4739D28B";
+name = "6 Jun 21, 20:24";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+visible = 1;
+width = 150;
+}
+);
 },
 {
 glyphname = "teh-ar";
@@ -1713,6 +1861,52 @@ width = 150;
 unicode = 1604;
 },
 {
+glyphname = "lam-ar.yb";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,660,l),
+(0,660,l),
+(0,0,l)
+);
+}
+);
+width = 150;
+}
+);
+},
+{
 glyphname = "meem-ar";
 layers = (
 {
@@ -2245,6 +2439,63 @@ width = 150;
 unicode = (1610,1740);
 },
 {
+glyphname = "yeh-ar.yb";
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (0,-280);
+ref = "twodotsverticalbelow-ar";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+alignment = -1;
+pos = (0,-390);
+ref = "twodotsverticalbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C4B88186-423E-4163-9E92-2C25150EAC03";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-390);
+ref = "twodotsverticalbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "B782B2EF-1F3F-40EA-8A91-5ACFBD1FFB65";
+name = "6 Jun 21, 21:17";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+width = 150;
+}
+);
+},
+{
 glyphname = "yehHamzaabove-ar";
 layers = (
 {
@@ -2291,6 +2542,187 @@ width = 150;
 }
 );
 unicode = 1574;
+},
+{
+glyphname = "yehbarree-ar";
+layers = (
+{
+attr = {
+colorPalette = 2;
+};
+background = {
+hints = (
+{
+name = _corner.circle;
+place = (270, 0);
+type = Corner;
+},
+{
+name = _corner.circle;
+place = (270, 0);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,-170,l),
+(270,-170,l),
+(270,-70,l),
+(170,-70,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,-120,l),
+(100,150,l),
+(0,150,l),
+(0,-120,l)
+);
+}
+);
+};
+guides = (
+{
+pos = (44,-270);
+}
+);
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,-170,l),
+(310,-170,l),
+(310,-70,l),
+(160,-70,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,-120,l),
+(100,150,l),
+(0,150,l),
+(0,-120,l)
+);
+}
+);
+width = 410;
+}
+);
+unicode = 1746;
+},
+{
+glyphname = "yehbarree-ar.fina";
+layers = (
+{
+attr = {
+colorPalette = 2;
+};
+guides = (
+{
+angle = 90;
+pos = (170,5);
+}
+);
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,-170,l),
+(350,-170,l),
+(350,-70,l),
+(200,-70,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,-120,l),
+(100,150,l),
+(0,150,l),
+(0,-120,l)
+);
+}
+);
+width = 150;
+}
+);
 },
 {
 glyphname = "kashida-ar";
