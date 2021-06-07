@@ -1,6 +1,13 @@
 {
 .appVersion = "3086";
 .formatVersion = 3;
+classes = (
+{
+automatic = 1;
+code = "hamza-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar peh-ar teh-ar theh-ar jeem-ar hah-ar khah-ar dal-ar thal-ar reh-ar zain-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar veh-ar fehDotless-ar qafDotless-ar qaf-ar kaf-ar lam-ar meem-ar noon-ar noonghunna-ar heh-ar heh-ar.fina tehMarbuta-ar waw-ar waw-ar.alt wawHamzaabove-ar alefMaksura-ar yeh-ar yehHamzaabove-ar kashida-ar lam_alef-ar lam_alefHamzaabove-ar lam_alefHamzabelow-ar lam_alefMadda-ar";
+name = ArabicLetters;
+}
+);
 customParameters = (
 {
 name = "Color Palettes";
@@ -63,7 +70,9 @@ tag = rlig;
 },
 {
 code = "lookupflag IgnoreMarks;
-sub waw-ar' space by waw-ar.alt;";
+sub waw-ar' space by waw-ar.alt;
+
+sub @ArabicLetters heh-ar' by heh-ar.fina;";
 tag = calt;
 }
 );
@@ -1828,6 +1837,77 @@ layers = (
 anchors = (
 {
 name = bottom.m;
+pos = (160,-300);
+},
+{
+name = top.m;
+pos = (160,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,200,l),
+(0,200,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,0,l),
+(320,200,l),
+(220,200,l),
+(220,0,l)
+);
+},
+{
+pos = (110,0);
+ref = "behDotless-ar";
+}
+);
+width = 370;
+}
+);
+unicode = 1607;
+},
+{
+glyphname = "heh-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
 pos = (105,-300);
 },
 {
@@ -1890,7 +1970,6 @@ nodes = (
 width = 260;
 }
 );
-unicode = 1607;
 },
 {
 glyphname = "tehMarbuta-ar";
@@ -1899,7 +1978,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = "heh-ar";
+ref = "heh-ar.fina";
 },
 {
 pos = (0,270);
@@ -1932,7 +2011,7 @@ layerId = "695ACB8B-ED36-4DA4-BBB3-A39B23123AD0";
 name = "6 Jun 21, 21:16";
 shapes = (
 {
-ref = "heh-ar";
+ref = "heh-ar.fina";
 }
 );
 width = 260;
