@@ -4501,11 +4501,48 @@ width = 50;
 unicode = 32;
 },
 {
+glyphname = "fullstop-ar";
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,0,l),
+(100,0,l),
+(100,100,l),
+(50,100,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 1748;
+},
+{
 glyphname = "comma-ar";
 layers = (
 {
 attr = {
-colorPalette = 2;
+colorPalette = 3;
 };
 hints = (
 {
@@ -4542,7 +4579,7 @@ glyphname = "semicolon-ar";
 layers = (
 {
 attr = {
-colorPalette = 2;
+colorPalette = 3;
 };
 hints = (
 {
@@ -4577,6 +4614,282 @@ width = 150;
 }
 );
 unicode = 1563;
+},
+{
+glyphname = period;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+ref = "dotabove-ar";
+}
+);
+width = 150;
+}
+);
+unicode = 46;
+},
+{
+glyphname = parenright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,-100,l),
+(100,460,l),
+(0,460,l),
+(0,-100,l)
+);
+}
+);
+width = 150;
+}
+);
+unicode = (41,40);
+},
+{
+glyphname = braceleft;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (210,360);
+ref = braceright;
+}
+);
+width = 260;
+}
+);
+unicode = 123;
+},
+{
+glyphname = braceright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+ref = parenright;
+},
+{
+pos = (110,180);
+ref = "comma-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 125;
+},
+{
+glyphname = bracketleft;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (210,359);
+ref = bracketright;
+}
+);
+width = 260;
+}
+);
+unicode = 91;
+},
+{
+glyphname = bracketright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (2,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (2,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (110,0);
+ref = parenright;
+},
+{
+closed = 1;
+nodes = (
+(100,-100,l),
+(100,-60,l),
+(0,-60,l),
+(0,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,420,l),
+(100,460,l),
+(0,460,l),
+(0,420,l)
+);
+}
+);
+width = 260;
+}
+);
+unicode = 93;
+},
+{
+glyphname = guillemetright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+ref = guilsinglright;
+},
+{
+pos = (110,0);
+ref = guilsinglright;
+}
+);
+width = 260;
+}
+);
+unicode = (187,171);
+},
+{
+glyphname = guilsinglright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,110,l),
+(100,250,l),
+(0,250,l),
+(0,110,l)
+);
+}
+);
+width = 150;
+}
+);
+unicode = (8250,8249);
+},
+{
+glyphname = quotedbl;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,540);
+ref = guillemetright;
+}
+);
+width = 260;
+}
+);
+unicode = (34,8221,8220);
+},
+{
+glyphname = quotesingle;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,540);
+ref = guilsinglright;
+}
+);
+width = 150;
+}
+);
+unicode = (39,8216,8217);
 },
 {
 glyphname = "percent-ar";
