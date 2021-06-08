@@ -94,7 +94,10 @@ lookup waw {
   sub waw-ar' space by waw-ar.alt;
 } waw;
 
-sub @ArabicLetters heh-ar' by heh-ar.fina;
+lookup heh {
+  ignore sub heh-ar' @ArabicLetters;
+  sub @ArabicLetters heh-ar' by heh-ar.fina;
+} heh;
 
 sub @YBLetters' [yehbarree-ar.fina yehbarreeHamzaabove-ar.fina] by @YBLetters.yb;
 sub @YBLetters' @Thin [yehbarree-ar.fina yehbarreeHamzaabove-ar.fina] by @YBLetters.yb;
