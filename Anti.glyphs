@@ -91,7 +91,7 @@ code = "lookupflag IgnoreMarks;
 
 lookup waw {
   ignore sub @ArabicLetters waw-ar';
-  sub waw-ar' space by waw-ar.alt;
+  sub waw-ar' space @ArabicLetters by waw-ar.alt;
 } waw;
 
 lookup heh {
