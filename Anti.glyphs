@@ -4501,7 +4501,7 @@ layerId = m01;
 width = 50;
 }
 );
-unicode = 32;
+unicode = (32,160);
 },
 {
 glyphname = "fullstop-ar";
