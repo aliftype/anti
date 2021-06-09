@@ -42,6 +42,10 @@ name = "Disable Subroutines";
 value = 1;
 },
 {
+name = "Export Mac Name Table Entries";
+value = 0;
+},
+{
 name = "Use Line Breaks";
 value = 1;
 },
