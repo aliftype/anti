@@ -167,12 +167,6 @@ visible = 1;
 );
 instances = (
 {
-customParameters = (
-{
-name = "Color Layers to SVG";
-value = 1;
-}
-);
 instanceInterpolations = {
 m01 = 1;
 };
