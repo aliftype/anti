@@ -5,28 +5,26 @@ layers = (
 attr = {
 colorPalette = 3;
 };
-hints = (
-{
-name = _corner.circle;
-origin = (0,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (0,3);
-scale = (1,-1);
-type = Corner;
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
+(77,-1,o),
+(100,21,o),
+(100,49,cs),
 (100,50,l),
-(100,150,l),
-(0,150,l),
-(0,50,l)
+(100,150,ls),
+(100,178,o),
+(78,200,o),
+(50,200,cs),
+(22,200,o),
+(0,178,o),
+(0,150,cs),
+(0,50,ls),
+(0,22,o),
+(21,0,o),
+(49,0,cs)
 );
 },
 {

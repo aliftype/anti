@@ -19,48 +19,46 @@ pos = (105,910);
 attr = {
 colorPalette = 2;
 };
-hints = (
-{
-name = _corner.circle;
-origin = (0,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (0,3);
-scale = (1,-1);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (1,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (1,3);
-scale = (1,-1);
-type = Corner;
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
+(77,-171,o),
+(100,-149,o),
+(100,-121,cs),
 (100,-120,l),
-(100,80,l),
-(0,80,l),
-(0,-120,l)
+(100,80,ls),
+(100,108,o),
+(78,130,o),
+(50,130,cs),
+(22,130,o),
+(0,108,o),
+(0,80,cs),
+(0,-120,ls),
+(0,-148,o),
+(21,-170,o),
+(49,-170,cs)
 );
 },
 {
 closed = 1;
 nodes = (
+(187,-51,o),
+(210,-29,o),
+(210,-1,cs),
 (210,0,l),
-(210,80,l),
-(110,80,l),
-(110,0,l)
+(210,80,ls),
+(210,108,o),
+(188,130,o),
+(160,130,cs),
+(132,130,o),
+(110,108,o),
+(110,80,cs),
+(110,0,ls),
+(110,-28,o),
+(131,-50,o),
+(159,-50,cs)
 );
 }
 );

@@ -5,71 +5,63 @@ layers = (
 attr = {
 colorPalette = 2;
 };
-hints = (
-{
-name = _corner.circle;
-origin = (0,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-options = 1;
-origin = (0,3);
-scale = (1,-1);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (1,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-options = 1;
-origin = (1,3);
-scale = (1,-1);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (2,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-options = 1;
-origin = (2,3);
-scale = (1,-1);
-type = Corner;
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(100,0,l),
-(100,500,l),
-(0,500,l),
-(0,0,l)
+(78,-50,o),
+(100,-28,o),
+(100,0,cs),
+(100,500,ls),
+(100,528,o),
+(78,550,o),
+(50,550,cs),
+(22,550,o),
+(0,528,o),
+(0,500,cs),
+(0,0,ls),
+(0,-28,o),
+(22,-50,o),
+(50,-50,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(210,470,l),
-(210,500,l),
-(110,500,l),
-(110,470,l)
+(188,240,o),
+(210,262,o),
+(210,290,cs),
+(210,320,ls),
+(210,348,o),
+(188,370,o),
+(160,370,cs),
+(132,370,o),
+(110,348,o),
+(110,320,cs),
+(110,290,ls),
+(110,262,o),
+(132,240,o),
+(160,240,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(210,290,l),
-(210,320,l),
-(110,320,l),
-(110,290,l)
+(188,420,o),
+(210,442,o),
+(210,470,cs),
+(210,500,ls),
+(210,528,o),
+(188,550,o),
+(160,550,cs),
+(132,550,o),
+(110,528,o),
+(110,500,cs),
+(110,470,ls),
+(110,442,o),
+(132,420,o),
+(160,420,cs)
 );
 }
 );

@@ -27,28 +27,26 @@ pos = (50,910);
 attr = {
 colorPalette = 2;
 };
-hints = (
-{
-name = _corner.circle;
-origin = (0,2);
-type = Corner;
-},
-{
-name = _corner.circle;
-origin = (0,3);
-scale = (1,-1);
-type = Corner;
-}
-);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
+(77,-51,o),
+(100,-29,o),
+(100,-1,cs),
 (100,0,l),
-(100,320,l),
-(0,320,l),
-(0,0,l)
+(100,320,ls),
+(100,348,o),
+(78,370,o),
+(50,370,cs),
+(22,370,o),
+(0,348,o),
+(0,320,cs),
+(0,0,ls),
+(0,-28,o),
+(21,-50,o),
+(49,-50,cs)
 );
 }
 );
