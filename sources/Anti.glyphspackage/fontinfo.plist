@@ -47,6 +47,13 @@ name = "Export Mac Name Table Entries";
 value = 0;
 },
 {
+name = glyphOrder;
+value = (
+.notdef,
+space
+);
+},
+{
 name = "Use Line Breaks";
 value = 1;
 },

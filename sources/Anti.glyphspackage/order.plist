@@ -1,4 +1,5 @@
 (
+space,
 "hamza-ar",
 "alef-ar",
 "alefHamzaabove-ar",
@@ -81,7 +82,6 @@
 "fourFarsi-ar",
 "fourFarsi-ar.urdu",
 "sevenFarsi-ar.urdu",
-space,
 "fullstop-ar",
 "comma-ar",
 "semicolon-ar",
