@@ -1,0 +1,48 @@
+{
+glyphname = "sheen-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "seen-ar";
+},
+{
+pos = (0,390);
+ref = "threedotshorizontalabove-ar";
+}
+);
+width = 370;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C561CCB0-B3DD-4D91-8D0F-BEF360031D7B";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,390);
+ref = "threedotshorizontalabove-ar";
+}
+);
+width = 370;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "BC074944-92FC-4E0A-BEB9-158E3B7CDAC8";
+name = "6 Jun 21, 20:40";
+shapes = (
+{
+ref = "seen-ar";
+}
+);
+width = 370;
+}
+);
+unicode = 1588;
+}

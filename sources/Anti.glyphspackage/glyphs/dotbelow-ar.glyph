@@ -1,0 +1,69 @@
+{
+export = 0;
+glyphname = "dotbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (50,100);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(100,22,o),
+(100,50,cs),
+(100,78,o),
+(78,100,o),
+(50,100,cs),
+(22,100,o),
+(0,78,o),
+(0,50,cs),
+(0,22,o),
+(22,0,o),
+(50,0,cs)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (50,100);
+}
+);
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "A656D26C-295E-482B-B17D-6528A888E689";
+name = "6 Jun 21, 20:14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(100,22,o),
+(100,50,cs),
+(100,78,o),
+(78,100,o),
+(50,100,cs),
+(22,100,o),
+(0,78,o),
+(0,50,cs),
+(0,22,o),
+(22,0,o),
+(50,0,cs)
+);
+}
+);
+width = 100;
+}
+);
+}

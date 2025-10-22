@@ -1,0 +1,48 @@
+{
+glyphname = "feh-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (54,270);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "38392373-3CC3-41C4-A991-8706348967BA";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (54,270);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "7C744663-4E7C-4EF8-B31F-5924064CAC0F";
+name = "6 Jun 21, 21:13";
+shapes = (
+{
+ref = "fehDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1601;
+}

@@ -1,0 +1,52 @@
+{
+glyphname = "sad-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,430,l),
+(0,430,l),
+(0,0,l)
+);
+},
+{
+alignment = -1;
+pos = (110,0);
+ref = "behDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1589;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = "alefMadda-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "alef-ar";
+},
+{
+pos = (0,730);
+ref = "madda-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "1552387F-6619-4620-AC45-1B954E8D34CB";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,730);
+ref = "madda-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "C52CCB44-2B77-4A34-9B76-50F2B454F326";
+name = "6 Jun 21, 20:19";
+shapes = (
+{
+ref = "alef-ar";
+}
+);
+width = 150;
+}
+);
+unicode = 1570;
+}

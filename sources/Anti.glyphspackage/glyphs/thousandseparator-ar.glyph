@@ -1,0 +1,19 @@
+{
+glyphname = "thousandseparator-ar";
+layers = (
+{
+attr = {
+colorPalette = 2;
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,450);
+ref = "comma-ar";
+}
+);
+width = 150;
+}
+);
+unicode = 1644;
+}

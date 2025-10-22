@@ -1,0 +1,47 @@
+{
+glyphname = "yehbarreeHamzaabove-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "yehbarree-ar.fina";
+},
+{
+pos = (0,220);
+ref = "hamzaabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "80F93C6E-EE9B-4A7C-B304-0F14EFA4A4E1";
+name = "7 Jun 21, 19:21";
+shapes = (
+{
+pos = (0,220);
+ref = "hamzaabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "E62157F6-37BA-4130-988B-1CDAFB0F3D90";
+name = "7 Jun 21, 19:21";
+shapes = (
+{
+ref = "yehbarree-ar.fina";
+}
+);
+width = 260;
+}
+);
+}

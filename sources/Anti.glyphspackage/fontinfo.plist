@@ -1,0 +1,330 @@
+{
+.appVersion = "3434";
+.formatVersion = 3;
+classes = (
+{
+automatic = 1;
+code = "hamza-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar beh-ar.yb peh-ar peh-ar.yb teh-ar theh-ar tteh-ar jeem-ar tcheh-ar hah-ar khah-ar dal-ar thal-ar ddal-ar reh-ar zain-ar rreh-ar jeh-ar seen-ar sheen-ar sad-ar dad-ar tah-ar zah-ar ain-ar ghain-ar feh-ar veh-ar fehDotless-ar qafDotless-ar qaf-ar kaf-ar gaf-ar lam-ar lam-ar.yb meem-ar noon-ar noonghunna-ar heh-ar heh-ar.fina hehgoal-ar hehgoalHamzaabove-ar hehDoachashmee-ar tehMarbuta-ar tehMarbutagoal-ar waw-ar waw-ar.alt wawHamzaabove-ar alefMaksura-ar yeh-ar yeh-ar.yb yehHamzaabove-ar yehbarree-ar yehbarree-ar.fina yehbarreeHamzaabove-ar yehbarreeHamzaabove-ar.fina kashida-ar lam_alef-ar lam_alefHamzaabove-ar lam_alefHamzabelow-ar lam_alefMadda-ar";
+name = ArabicLetters;
+},
+{
+code = "beh-ar yeh-ar peh-ar lam-ar";
+name = YBLetters;
+},
+{
+code = "beh-ar.yb yeh-ar.yb peh-ar.yb lam-ar.yb";
+name = YBLetters.yb;
+},
+{
+code = "hamza-ar hamzaabove-ar hamzabelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar sukun-ar madda-ar alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar behDotless-ar beh-ar beh-ar.yb peh-ar peh-ar.yb teh-ar theh-ar reh-ar zain-ar lam-ar noon-ar noonghunna-ar alefMaksura-ar yeh-ar yeh-ar.yb yehHamzaabove-ar yehbarree-ar.fina decimalseparator-ar thousandseparator-ar zero-ar one-ar comma-ar semicolon-ar 
+";
+name = Thin;
+}
+);
+customParameters = (
+{
+name = "Color Palettes";
+value = (
+(
+(68,0,59,255),
+(220,187,72,255),
+(42,255),
+(87,255),
+(0,138,255,255)
+)
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Disable Subroutines";
+value = 1;
+},
+{
+name = "Export Mac Name Table Entries";
+value = 0;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+}
+);
+date = "2021-06-06 13:02:08 +0000";
+familyName = Anti;
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+languagesystem arab dflt;
+languagesystem arab URD;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature fina;
+";
+disabled = 1;
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup rlig_arab_0 {
+	lookupflag IgnoreMarks;
+	script arab;
+	sub lam-ar alef-ar by lam_alef-ar;
+	sub lam-ar alefHamzaabove-ar by lam_alefHamzaabove-ar;
+	sub lam-ar alefHamzabelow-ar by lam_alefHamzabelow-ar;
+	sub lam-ar alefMadda-ar by lam_alefMadda-ar;
+} rlig_arab_0;
+";
+tag = rlig;
+},
+{
+code = "lookupflag IgnoreMarks;
+
+lookup waw {
+  ignore sub @ArabicLetters waw-ar';
+  sub waw-ar' space @ArabicLetters by waw-ar.alt;
+} waw;
+
+lookup heh {
+  ignore sub heh-ar' @ArabicLetters;
+  sub @ArabicLetters heh-ar' by heh-ar.fina;
+} heh;
+
+sub @YBLetters' [yehbarree-ar.fina yehbarreeHamzaabove-ar.fina] by @YBLetters.yb;
+sub @YBLetters' @Thin [yehbarree-ar.fina yehbarreeHamzaabove-ar.fina] by @YBLetters.yb;
+";
+tag = rlig;
+},
+{
+code = "sub yehbarree-ar by yehbarree-ar.fina;
+sub yehbarreeHamzaabove-ar by yehbarreeHamzaabove-ar.fina;
+";
+tag = fina;
+},
+{
+code = "language URD;
+
+sub fourFarsi-ar by fourFarsi-ar.urdu;
+sub seven-ar by sevenFarsi-ar.urdu;";
+tag = locl;
+}
+);
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 1000;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -500;
+},
+{
+over = 16;
+pos = 710;
+},
+{
+over = -16;
+pos = -170;
+},
+{
+over = 16;
+pos = 370;
+},
+{
+over = 16;
+pos = 550;
+}
+);
+name = Regular;
+userData = {
+GSOffsetCapStyle = 2;
+GSOffsetHorizontal = 10;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 10;
+};
+visible = 1;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = "Color Layers to SVG";
+value = 1;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = "Export COLR Table";
+value = 0;
+},
+{
+name = "Export SVG Table";
+value = 0;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Black;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+filter = "script == \"arabic\"";
+name = "Alef Height";
+},
+{
+filter = "script == \"arabic\"";
+name = "Reh Depth";
+},
+{
+filter = "script == \"arabic\"";
+name = "Beh Height";
+},
+{
+filter = "script == \"arabic\"";
+name = Digits;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright © 2021 by Khaled Hosny. All rights reserved.";
+},
+{
+language = ARA;
+value = "حقوق النسخ ٢٠٢١ لخالد حسنی. جميع الحقوق محفوظة.";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = ENG;
+value = "Anti is a cryptic and playful Arabic typeface.";
+},
+{
+language = ARA;
+value = "«أنتِ» خط عربی غامض ومرح.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = ENG;
+value = "Khaled Hosny";
+},
+{
+language = ARA;
+value = "خالد حسني";
+}
+);
+},
+{
+key = designerURL;
+value = "https://aliftype.com";
+},
+{
+key = familyNames;
+values = (
+{
+language = ARA;
+value = "أنت";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = ENG;
+value = "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://www.gnu.org/licenses/agpl-3.0.html";
+},
+{
+key = manufacturers;
+values = (
+{
+language = ENG;
+value = "Alif Type";
+},
+{
+language = ARA;
+value = "حروف ألف";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://aliftype.com";
+},
+{
+key = sampleTexts;
+values = (
+{
+language = ENG;
+value = "أَنْتِ وَ أَنَا وَ لَا شَيْءَ غَيْرَنَا";
+},
+{
+language = ARA;
+value = "أَنْتِ وَ أَنَا وَ لَا شَيْءَ غَيْرَنَا";
+}
+);
+},
+{
+key = vendorID;
+value = ALIF;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 4;
+versionMinor = 0;
+}

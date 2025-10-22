@@ -1,0 +1,48 @@
+{
+glyphname = "jeem-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "hah-ar";
+},
+{
+pos = (110,-170);
+ref = "dotbelow-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "FD21C520-CF55-4175-BB0F-CFBF8F01AF15";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (110,-170);
+ref = "dotbelow-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "E29F7636-F07D-4434-B2C3-CF16D72BFA1F";
+name = "6 Jun 21, 20:25";
+shapes = (
+{
+ref = "hah-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1580;
+}

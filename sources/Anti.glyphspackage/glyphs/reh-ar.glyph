@@ -1,0 +1,30 @@
+{
+glyphname = "reh-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-120);
+ref = "behDotless-ar";
+}
+);
+width = 150;
+}
+);
+unicode = 1585;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = "ghain-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (0,270);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "8FAEE105-19C6-4315-B25B-CD5D43B1BCA5";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,270);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "F2393829-A85B-4ECD-9C62-E4B2ED37ED58";
+name = "6 Jun 21, 21:13";
+shapes = (
+{
+ref = "ain-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1594;
+}

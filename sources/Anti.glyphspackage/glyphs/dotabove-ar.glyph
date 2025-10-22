@@ -1,0 +1,69 @@
+{
+export = 0;
+glyphname = "dotabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (50,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(100,22,o),
+(100,50,cs),
+(100,78,o),
+(78,100,o),
+(50,100,cs),
+(22,100,o),
+(0,78,o),
+(0,50,cs),
+(0,22,o),
+(22,0,o),
+(50,0,cs)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (50,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "D6F8E67F-E44F-4990-B97D-C0FBB357E682";
+name = "6 Jun 21, 20:13";
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(100,22,o),
+(100,50,cs),
+(100,78,o),
+(78,100,o),
+(50,100,cs),
+(22,100,o),
+(0,78,o),
+(0,50,cs),
+(0,22,o),
+(22,0,o),
+(50,0,cs)
+);
+}
+);
+width = 100;
+}
+);
+}

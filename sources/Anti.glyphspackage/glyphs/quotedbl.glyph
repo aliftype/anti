@@ -1,0 +1,19 @@
+{
+glyphname = quotedbl;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,540);
+ref = guillemetright;
+}
+);
+width = 260;
+}
+);
+unicode = (34,8221,8220);
+}

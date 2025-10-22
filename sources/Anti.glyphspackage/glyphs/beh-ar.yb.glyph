@@ -1,0 +1,60 @@
+{
+glyphname = "beh-ar.yb";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (0,-170);
+ref = "dotbelow-ar";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+alignment = -1;
+pos = (0,-280);
+ref = "dotbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "0F71F78E-B660-44E9-AA06-DD0AEA6A5529";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-280);
+ref = "dotbelow-ar";
+}
+);
+visible = 1;
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "E6AF2DE8-3BB1-442A-8949-BF8DCF5663EF";
+name = "6 Jun 21, 20:23";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+width = 150;
+}
+);
+}

@@ -1,0 +1,101 @@
+{
+glyphname = "four-ar";
+layers = (
+{
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (2,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (2,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (3,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (3,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,500,l),
+(0,500,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,420,l),
+(210,500,l),
+(110,500,l),
+(110,420,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,0,l),
+(210,80,l),
+(110,80,l),
+(110,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,235,l),
+(210,265,l),
+(110,265,l),
+(110,235,l)
+);
+}
+);
+width = 260;
+}
+);
+unicode = 1636;
+}

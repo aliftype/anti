@@ -1,0 +1,29 @@
+{
+glyphname = "kasra-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom.m;
+pos = (50,-300);
+},
+{
+name = bottom.m;
+pos = (50,-340);
+}
+);
+attr = {
+colorPalette = 4;
+};
+layerId = m01;
+shapes = (
+{
+pos = (0,-1230);
+ref = "fatha-ar";
+}
+);
+width = 100;
+}
+);
+unicode = 1616;
+}

@@ -1,0 +1,37 @@
+{
+glyphname = guilsinglright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,110,l),
+(100,250,l),
+(0,250,l),
+(0,110,l)
+);
+}
+);
+width = 150;
+}
+);
+unicode = (8250,8249);
+}

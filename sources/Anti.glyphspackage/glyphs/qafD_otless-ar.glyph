@@ -1,0 +1,56 @@
+{
+glyphname = "qafDotless-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (105,-300);
+},
+{
+name = top;
+pos = (104,270);
+},
+{
+name = top.m;
+pos = (105,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,200,l),
+(0,200,l),
+(0,0,l)
+);
+},
+{
+alignment = -1;
+pos = (110,-120);
+ref = "behDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1647;
+}

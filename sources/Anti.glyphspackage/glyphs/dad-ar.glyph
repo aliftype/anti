@@ -1,0 +1,48 @@
+{
+glyphname = "dad-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (110,390);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "7C74F04C-8581-45EF-9C43-6DE3776D8DDF";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (110,390);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "112EB15E-C916-47CE-806A-3665CE17FD1A";
+name = "6 Jun 21, 20:40";
+shapes = (
+{
+ref = "sad-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1590;
+}

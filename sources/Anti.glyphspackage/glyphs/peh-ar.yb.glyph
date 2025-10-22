@@ -1,0 +1,65 @@
+{
+glyphname = "peh-ar.yb";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-521);
+}
+);
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (0,-391);
+ref = "threedotsbelow-ar";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+alignment = -1;
+pos = (0,-501);
+ref = "threedotsbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "816585BC-E4A1-422B-BED1-396E45979833";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-500);
+ref = "threedotsbelow-ar";
+}
+);
+visible = 1;
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "D52A4278-BF7F-4A36-80A1-34CA4739D28B";
+name = "6 Jun 21, 20:24";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+visible = 1;
+width = 150;
+}
+);
+}

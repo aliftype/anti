@@ -1,0 +1,59 @@
+{
+glyphname = "behDotless-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (50,-70);
+},
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = ring;
+pos = (75,0);
+},
+{
+name = top;
+pos = (50,390);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,320,l),
+(0,320,l),
+(0,0,l)
+);
+}
+);
+width = 150;
+}
+);
+unicode = 1646;
+}

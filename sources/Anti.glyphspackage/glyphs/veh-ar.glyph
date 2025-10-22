@@ -1,0 +1,58 @@
+{
+glyphname = "veh-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (-1,270);
+ref = "threedotsupabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "FC80A981-B63C-4AFE-B516-D38BF6CD234E";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (-1,270);
+ref = "threedotsupabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "B5CEFDA3-E743-491D-905E-E01F307B9BB0";
+name = "6 Jun 21, 21:14";
+shapes = (
+{
+ref = "fehDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1700;
+}

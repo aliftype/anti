@@ -1,0 +1,61 @@
+{
+glyphname = bracketright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (2,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (2,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (110,0);
+ref = parenright;
+},
+{
+closed = 1;
+nodes = (
+(100,-100,l),
+(100,-60,l),
+(0,-60,l),
+(0,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,420,l),
+(100,460,l),
+(0,460,l),
+(0,420,l)
+);
+}
+);
+width = 260;
+}
+);
+unicode = 93;
+}

@@ -1,0 +1,33 @@
+{
+glyphname = "tah-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = m01;
+shapes = (
+{
+ref = "alef-ar";
+},
+{
+alignment = -1;
+pos = (110,0);
+ref = "behDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1591;
+}

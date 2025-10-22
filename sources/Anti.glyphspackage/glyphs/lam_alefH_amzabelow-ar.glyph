@@ -1,0 +1,80 @@
+{
+glyphname = "lam_alefHamzabelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m_1;
+pos = (160,-300);
+},
+{
+name = bottom.m_2;
+pos = (50,-300);
+},
+{
+name = caret_1;
+pos = (105,0);
+},
+{
+name = top.m_1;
+pos = (160,910);
+},
+{
+name = top.m_2;
+pos = (50,910);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (110,0);
+ref = "lam-ar";
+},
+{
+ref = "alef-ar";
+},
+{
+pos = (0,-182);
+ref = "hamzabelow-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "A5AD3821-9A70-42A7-97AE-AB2DD0DE6285";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-182);
+ref = "hamzabelow-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "E9F356DC-7EA1-47FE-8196-8EB31A7785F4";
+name = "6 Jun 21, 21:18";
+shapes = (
+{
+alignment = -1;
+pos = (110,0);
+ref = "lam-ar";
+},
+{
+ref = "alef-ar";
+}
+);
+width = 260;
+}
+);
+metricLeft = "lam_alef-ar";
+}

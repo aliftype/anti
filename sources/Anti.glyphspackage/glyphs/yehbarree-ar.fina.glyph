@@ -1,0 +1,29 @@
+{
+glyphname = "yehbarree-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-170);
+ref = "yehbarree-ar";
+}
+);
+width = 260;
+}
+);
+}

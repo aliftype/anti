@@ -1,0 +1,20 @@
+{
+glyphname = bracketleft;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (210,359);
+ref = bracketright;
+}
+);
+width = 260;
+}
+);
+unicode = 91;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = "tcheh-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "hah-ar";
+},
+{
+pos = (0,-280);
+ref = "threedotsupbelow-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C124D915-1ACC-4F3B-B29F-0DC8D82EBD0F";
+name = "7 Jun 21, 18:42";
+shapes = (
+{
+pos = (0,-280);
+ref = "threedotsupbelow-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "474CE71C-5CEB-4901-B91C-CFA9CF2CADCB";
+name = "7 Jun 21, 18:42";
+shapes = (
+{
+ref = "hah-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1670;
+}

@@ -1,0 +1,80 @@
+{
+glyphname = "fourFarsi-ar";
+layers = (
+{
+attr = {
+colorPalette = 2;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (2,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (2,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,500,l),
+(0,500,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,470,l),
+(210,500,l),
+(110,500,l),
+(110,470,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,290,l),
+(210,320,l),
+(110,320,l),
+(110,290,l)
+);
+}
+);
+width = 260;
+}
+);
+unicode = 1780;
+}

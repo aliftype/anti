@@ -1,0 +1,48 @@
+{
+glyphname = "hehgoalHamzaabove-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "heh-ar.fina";
+},
+{
+pos = (55,270);
+ref = "hamzaabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "67CAFBCF-4BA4-4760-8831-60FF09BAF2EE";
+name = "7 Jun 21, 19:08";
+shapes = (
+{
+pos = (55,270);
+ref = "hamzaabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "A385B807-A785-4E3F-861B-380BF51986F2";
+name = "7 Jun 21, 19:08";
+shapes = (
+{
+ref = "heh-ar.fina";
+}
+);
+width = 260;
+}
+);
+unicode = 1730;
+}

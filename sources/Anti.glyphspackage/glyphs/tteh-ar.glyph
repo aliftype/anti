@@ -1,0 +1,48 @@
+{
+glyphname = "tteh-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (25,390);
+ref = "tahabove-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C954D697-470A-4774-A8A6-0EDA8AFED1FB";
+name = "7 Jun 21, 19:06";
+shapes = (
+{
+pos = (25,390);
+ref = "tahabove-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "BDAA2C28-6181-41AC-925D-E3BFB654BED7";
+name = "7 Jun 21, 19:06";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+width = 150;
+}
+);
+unicode = 1657;
+}

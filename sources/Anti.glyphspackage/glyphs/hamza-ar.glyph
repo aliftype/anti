@@ -1,0 +1,41 @@
+{
+glyphname = "hamza-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-50);
+ref = "hamzaabove-ar";
+}
+);
+width = 100;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "DF83440B-A3DC-49CC-AFE3-E25E60C8CE7C";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-50);
+ref = "hamzaabove-ar";
+}
+);
+width = 100;
+}
+);
+unicode = 1569;
+}

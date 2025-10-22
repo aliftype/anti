@@ -1,0 +1,52 @@
+{
+glyphname = "lam_alef-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m_1;
+pos = (160,-300);
+},
+{
+name = bottom.m_2;
+pos = (50,-300);
+},
+{
+name = caret_1;
+pos = (105,0);
+},
+{
+name = top.m_1;
+pos = (160,910);
+},
+{
+name = top.m_2;
+pos = (50,910);
+},
+{
+name = top_1;
+pos = (160,730);
+},
+{
+name = top_2;
+pos = (50,730);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (110,0);
+ref = "alef-ar";
+},
+{
+ref = "alef-ar";
+}
+);
+width = 260;
+}
+);
+}

@@ -1,0 +1,33 @@
+{
+glyphname = "fathatan-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.m;
+pos = (50,910);
+},
+{
+name = top.m;
+pos = (50,980);
+}
+);
+attr = {
+colorPalette = 4;
+};
+layerId = m01;
+shapes = (
+{
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (0,30);
+ref = "fatha-ar";
+}
+);
+width = 100;
+}
+);
+unicode = 1611;
+}

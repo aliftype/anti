@@ -1,0 +1,53 @@
+{
+glyphname = "hamzaabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (50,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(56,112,l),
+(25,112,o),
+(0,87,o),
+(0,56,cs),
+(0,25,o),
+(25,0,o),
+(56,0,c)
+);
+}
+);
+width = 100;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "23E96FA2-5314-4739-A6D9-5626D7032869";
+name = "6 Jun 21, 20:15";
+shapes = (
+{
+closed = 1;
+nodes = (
+(56,112,l),
+(25,112,o),
+(0,87,o),
+(0,56,cs),
+(0,25,o),
+(25,0,o),
+(56,0,c)
+);
+}
+);
+width = 100;
+}
+);
+unicode = 1620;
+}

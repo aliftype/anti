@@ -1,0 +1,67 @@
+{
+glyphname = "lam_alefMadda-ar";
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+pos = (105,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "lam_alef-ar";
+},
+{
+anchor = top_2;
+pos = (0,730);
+ref = "madda-ar";
+}
+);
+width = 260;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (105,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "70104947-8FEE-4842-9F53-B671EFC970B9";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+anchor = top_2;
+pos = (0,730);
+ref = "madda-ar";
+}
+);
+width = 260;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (105,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "CDB5564C-157F-456E-96CC-9E6166AC8B57";
+name = "6 Jun 21, 21:19";
+shapes = (
+{
+ref = "lam_alef-ar";
+}
+);
+width = 260;
+}
+);
+}

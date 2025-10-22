@@ -1,0 +1,48 @@
+{
+glyphname = "qaf-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "qafDotless-ar";
+},
+{
+pos = (-1,270);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "AB1729D7-6230-409E-9EC1-C5A23E25C61C";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (-1,270);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "2B18A15B-0D03-4A74-8220-B55D67309C2C";
+name = "6 Jun 21, 21:14";
+shapes = (
+{
+ref = "qafDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1602;
+}

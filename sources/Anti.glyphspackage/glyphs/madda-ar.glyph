@@ -1,0 +1,59 @@
+{
+glyphname = "madda-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (50,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,44,l),
+(106,75,o),
+(81,100,o),
+(50,100,cs),
+(19,100,o),
+(-6,75,o),
+(-6,44,c)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (50,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+colorPalette = 1;
+};
+layerId = "D52AFD9D-B1D2-4059-A27B-A4A5950AFB82";
+name = "6 Jun 21, 20:16";
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,44,l),
+(106,75,o),
+(81,100,o),
+(50,100,cs),
+(19,100,o),
+(-6,75,o),
+(-6,44,c)
+);
+}
+);
+width = 100;
+}
+);
+unicode = 1619;
+}

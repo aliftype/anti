@@ -1,0 +1,48 @@
+{
+glyphname = "thal-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "dal-ar";
+},
+{
+pos = (0,270);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C9AACE4C-CAA7-40B7-8BB4-DE22B3FD8D34";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,270);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "425937A3-AFAF-407A-A0AB-018C5E6204DD";
+name = "6 Jun 21, 20:36";
+shapes = (
+{
+ref = "dal-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1584;
+}

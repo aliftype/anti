@@ -1,0 +1,48 @@
+{
+glyphname = "yeh-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (0,-280);
+ref = "twodotsverticalbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C4B88186-423E-4163-9E92-2C25150EAC03";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (0,-280);
+ref = "twodotsverticalbelow-ar";
+}
+);
+width = 150;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "B782B2EF-1F3F-40EA-8A91-5ACFBD1FFB65";
+name = "6 Jun 21, 21:17";
+shapes = (
+{
+ref = "behDotless-ar";
+}
+);
+width = 150;
+}
+);
+unicode = (1610,1740);
+}

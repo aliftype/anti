@@ -1,0 +1,48 @@
+{
+glyphname = "zah-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "tah-ar";
+},
+{
+pos = (110,390);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "471C690D-2FC6-4B98-9F90-ED41057759EB";
+name = "6 Jun 21, 20:17";
+shapes = (
+{
+pos = (110,390);
+ref = "dotabove-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "E7D6FB32-822C-4AF2-BDBA-74596F894B4D";
+name = "6 Jun 21, 20:41";
+shapes = (
+{
+ref = "tah-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1592;
+}

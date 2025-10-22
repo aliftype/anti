@@ -1,0 +1,62 @@
+{
+glyphname = "gaf-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (110,0);
+ref = "alef-ar";
+},
+{
+alignment = -1;
+ref = "behDotless-ar";
+},
+{
+alignment = -1;
+pos = (110,-180);
+ref = "fatha-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 0;
+};
+layerId = "64256D3E-FE86-44D4-BB3E-2899F2E9D3EA";
+name = "7 Jun 21, 18:44";
+shapes = (
+{
+alignment = -1;
+pos = (110,-180);
+ref = "fatha-ar";
+}
+);
+width = 260;
+},
+{
+associatedMasterId = m01;
+attr = {
+colorPalette = 2;
+};
+layerId = "5D2F7AB2-69BA-429B-8069-0F43F2060CF3";
+name = "7 Jun 21, 18:44";
+shapes = (
+{
+alignment = -1;
+pos = (110,0);
+ref = "alef-ar";
+},
+{
+alignment = -1;
+ref = "behDotless-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 1711;
+}

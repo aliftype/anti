@@ -1,0 +1,38 @@
+{
+glyphname = parenright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+options = 1;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,-100,l),
+(100,460,l),
+(0,460,l),
+(0,-100,l)
+);
+}
+);
+width = 150;
+}
+);
+unicode = (41,40);
+}

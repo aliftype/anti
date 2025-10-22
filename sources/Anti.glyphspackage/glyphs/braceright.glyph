@@ -1,0 +1,22 @@
+{
+glyphname = braceright;
+layers = (
+{
+attr = {
+colorPalette = 3;
+};
+layerId = m01;
+shapes = (
+{
+ref = parenright;
+},
+{
+pos = (110,180);
+ref = "comma-ar";
+}
+);
+width = 260;
+}
+);
+unicode = 125;
+}

@@ -1,0 +1,151 @@
+{
+glyphname = "yehbarree-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom.m;
+pos = (50,-300);
+},
+{
+name = top;
+pos = (50,390);
+},
+{
+name = top.m;
+pos = (50,910);
+}
+);
+attr = {
+colorPalette = 2;
+};
+background = {
+hints = (
+{
+name = _corner.circle;
+type = Corner;
+},
+{
+name = _corner.circle;
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,-170,l),
+(270,-170,l),
+(270,-70,l),
+(170,-70,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,-120,l),
+(100,150,l),
+(0,150,l),
+(0,-120,l)
+);
+}
+);
+};
+guides = (
+{
+pos = (44,-270);
+}
+);
+hints = (
+{
+name = _corner.circle;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (0,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (1,3);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (2,2);
+type = Corner;
+},
+{
+name = _corner.circle;
+origin = (2,3);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(460,0,l),
+(460,100,l),
+(160,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,50,l),
+(100,320,l),
+(0,320,l),
+(0,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,250,l),
+(210,320,l),
+(110,320,l),
+(110,250,l)
+);
+}
+);
+width = 560;
+}
+);
+unicode = 1746;
+}
