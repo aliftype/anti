@@ -1,0 +1,25 @@
+configuration:
+  defaults:
+    direction: rtl
+    script: arab
+
+input:
+- text:
+  - لا
+  - لأ
+  - لإ
+  - لآ
+  - و
+  - وأ
+  - و أ
+  - ه
+  - وه
+  - ے
+  - نے
+  - بے
+  - بنے
+- language: URD
+  text:
+  - ۴
+  - ٧
+  - ۷

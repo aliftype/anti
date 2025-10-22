@@ -1,0 +1,93 @@
+{
+  "tests": [
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "لا",
+      "expectation": "uni06440627=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "لأ",
+      "expectation": "uni06440623=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "لإ",
+      "expectation": "uni06440625=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "لآ",
+      "expectation": "uni06440622=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "و",
+      "expectation": "uni0648=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "وأ",
+      "expectation": "uni0623=1+150|uni0648=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "و أ",
+      "expectation": "uni0623=2+150|space=1+50|uni0648.alt=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "ه",
+      "expectation": "uni0647=0+370"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "وه",
+      "expectation": "uni0647.fina=1+260|uni0648=0+260"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "ے",
+      "expectation": "uni06D2=0+560"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "نے",
+      "expectation": "uni06D2.fina=1+260|uni0646=0+150"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "بے",
+      "expectation": "uni06D2.fina=1+260|uni0628.yb=0+150"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "بنے",
+      "expectation": "uni06D2.fina=2+260|uni0646=1+150|uni0628.yb=0+150"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "۴",
+      "expectation": "uni06F4=0+260",
+      "language": "URD"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "٧",
+      "expectation": "uni0667=0+370",
+      "language": "URD"
+    },
+    {
+      "only": "Anti-Regular.ttf",
+      "input": "۷",
+      "expectation": "uni0667=0+370",
+      "language": "URD"
+    }
+  ],
+  "configuration": {
+    "defaults": {
+      "direction": "rtl",
+      "script": "arab"
+    }
+  }
+}

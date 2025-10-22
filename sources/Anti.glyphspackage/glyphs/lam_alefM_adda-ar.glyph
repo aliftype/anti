@@ -22,12 +22,6 @@ ref = "madda-ar";
 width = 260;
 },
 {
-anchors = (
-{
-name = caret_1;
-pos = (105,0);
-}
-);
 associatedMasterId = m01;
 attr = {
 colorPalette = 1;
@@ -44,12 +38,6 @@ ref = "madda-ar";
 width = 260;
 },
 {
-anchors = (
-{
-name = caret_1;
-pos = (105,0);
-}
-);
 associatedMasterId = m01;
 attr = {
 colorPalette = 2;
